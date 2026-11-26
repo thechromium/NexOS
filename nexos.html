@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NexOS - Fresh &amp; Juicy Computing</title>
+  <title>NexOS v0.2 - Fresh &amp; Juicy Computing</title>
   <link rel="stylesheet" href="nexos.css">
 </head>
 <body>
@@ -15,13 +15,14 @@
           <img src="2c612a52_original.jpg" alt="NexOS Logo">
         </div>
         <div class="brand-text">
-          <h1>NexOS</h1>
+          <h1>NexOS <span style="font-size: 1.1rem; vertical-align: middle; background: rgba(255,255,255,0.3); padding: 3px 10px; border-radius: 999px; border: 1px solid #fff;">v0.2</span></h1>
           <p>Fresh, Fast &amp; Built From Scratch</p>
         </div>
       </div>
 
       <nav>
         <a href="#about" class="gel-pill">About</a>
+        <a href="#whats-new" class="gel-pill">What's New</a>
         <a href="#gallery" class="gel-pill">Gallery</a>
         <a href="#download" class="gel-pill">Get NexOS</a>
       </nav>
@@ -31,14 +32,37 @@
       <div class="hero-copy">
         <h2>Pure Citrus-Powered Simplicity</h2>
         <p>
-          Welcome to the official home of <strong>NexOS</strong>—a lightweight operating system crafted in C and Assembly. Designed to boot fast, stay clean, and look vibrant on any screen.
+          Welcome to the official home of <strong>NexOS</strong>—a lightweight 32-bit operating system crafted from scratch in C and Assembly. Now featuring live keyboard support, FiWi network login, and the built-in <strong>InternetExplorer.vbs</strong> navigator!
         </p>
-        <a href="nexos.iso" download class="candy-btn" id="download">Download NexOS v0.1</a>
+        <a href="nexos.iso" download class="candy-btn" id="download">Download NexOS v0.2</a>
       </div>
 
       <div class="glass-frame">
         <img src="fawpaper.png" alt="NexOS Wallpaper Preview">
         <div class="frame-caption">NexOS Official Wallpaper (fawpaper.png)</div>
+      </div>
+    </section>
+
+    <section class="showcase-grid" id="whats-new">
+      <div class="aqua-card">
+        <h3>&#9000; Live PS/2 Keyboard &amp; Shell</h3>
+        <p>
+          Type directly into the <strong>NexOS&gt;</strong> command prompt with full backspace support, instant screen clearing (<code>/clear</code>), and built-in help (<code>/help</code>).
+        </p>
+      </div>
+
+      <div class="aqua-card">
+        <h3>&#128225; FiWi Network Login</h3>
+        <p>
+          Authenticate your session right from the terminal using <code>/connect.fiwi.&lt;username&gt;.&lt;password&gt;</code> before browsing.
+        </p>
+      </div>
+
+      <div class="aqua-card">
+        <h3>&#127760; InternetExplorer.vbs</h3>
+        <p>
+          Run <code>/internetcomm</code> to launch the classic blue-and-white <strong>InternetExplorer.vbs</strong> navigator right inside your kernel!
+        </p>
       </div>
     </section>
 
@@ -58,16 +82,17 @@
       <div class="aqua-card">
         <h3>How to Boot</h3>
         <p>
-          Download the image and boot it right inside <strong>QEMU</strong>, <strong>VirtualBox</strong>, or flash it to a USB drive to run on real hardware.
+          Download <code>nexos.iso</code> and boot it inside <strong>QEMU</strong>, <strong>VirtualBox</strong>, or flash it to a USB drive with <strong>Rufus</strong> to run on real hardware.
         </p>
       </div>
     </section>
 
     <footer>
-      &copy; 2026 NexOS Project &bull; Freshly Squeezed Software
+      &copy; 2026 NexOS Project &bull; Version 0.2 &bull; Freshly Squeezed Software
     </footer>
   </div>
 
 </body>
 </html>
+
 
